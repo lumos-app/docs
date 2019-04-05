@@ -2,6 +2,7 @@
 
 ## macOS Server API
 
+Port: 8082
 
 ### Test Connection
 
@@ -37,7 +38,7 @@ GET /api/v1/images
             "totalViewCount": 315,
             "show": true/false,
             "createdDate": "ISO8601",
-            "data": "base64 encoded image (thumbnail)"
+            "data": "base64 encoded image (thumbnail) or empty string"
         }
     ]
 }
